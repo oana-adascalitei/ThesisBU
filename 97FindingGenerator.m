@@ -9,6 +9,7 @@ YK := ChangeRing(Y,K);
 #Automorphisms(YK);
 Exponent(AutomorphismGroup(YK)); 
 
+// ``bielliptic model" of Y over K
 g := 194^2*(1/194*(-1495*e + 14647)*x^6 + 1/97*(819*e-6111)*x^4 + 1/97*(-819*e - 6111)*x^2 + 1/194*(1495*e + 14647));
 H := HyperellipticCurve(g);
 _,m:=IsIsomorphic(H,YK);
